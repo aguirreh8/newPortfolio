@@ -1,0 +1,32 @@
+@import "https://fonts.googleapis.com/css?family=Oleo+Script:400,700";
+
+.navbar {
+    color: #FFF;
+    padding: 20px;
+    width: 100%;
+    z-index: 999;
+    background-color: rgba(33, 41, 56, .0);
+    transition: .5s;
+}
+
+.fadeIn {
+    transition: .5s;
+    background-color: rgba(33, 41, 56, .9);
+}
+
+.navbar * {
+	z-index: 2;
+}
+
+.navbar-brand {
+	font-family: 'Oleo Script', cursive;
+	font-size: 30px;
+}
+
+.nav-link {
+	color: #FFF;	
+}
+
+.navbar-inner {
+    background:transparent;
+}
