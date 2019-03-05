@@ -4,6 +4,9 @@ import Webventeer from "../../images/webventeer.jpg";
 import WeatherStyle from "../../images/weatherstyle.jpg";
 import JobCards from "../../images/jobcards.jpg";
 import BurgerEater from "../../images/burgereater.jpg";
+import MemoryGame from "../../images/memorygame.jpg";
+import Hangman from "../../images/hangman.jpg";
+import What2Wear from "../../images/what2wear.jpg";
 
 const Projects = () => (
 	<div className="component-holder projects">
@@ -118,7 +121,7 @@ const Projects = () => (
 					<br />
 					<span>
 						<a 
-							href="https://mariuxiv08.github.io/Webventeer/index.html" 
+							href="https://guarded-taiga-69253.herokuapp.com/" 
 							target="_blank" 
 							className="btn btn-success project-link" 
 							role="button" 
@@ -128,7 +131,7 @@ const Projects = () => (
 					</span>
 					<span>
 						<a 
-							href="https://github.com/Mariuxiv08/Webventeer" 
+							href="https://github.com/aguirreh8/BurgerEater" 
 							target="_blank" 
 							className="btn btn-danger project-link" 
 							role="button" 
@@ -138,6 +141,103 @@ const Projects = () => (
 					</span>
 				</p>
 			  </div>
+
+			  <div className="gallery-cell">
+			  	<img src={MemoryGame} className="project-img" alt="memorygame"/>
+			  	<p className="project-text">
+			  		<span className="project-title">Memory Game</span>
+			  		<br />
+			  		A memory game created in React. Updates user score and high score with states.
+					<br />
+					<br />
+					<span>
+						<a 
+							href="https://aguirreh8.github.io/memoryGame/" 
+							target="_blank" 
+							className="btn btn-success project-link" 
+							role="button" 
+							rel="noopener noreferrer">
+								Go To Site
+						</a>
+					</span>
+					<span>
+						<a 
+							href="https://github.com/aguirreh8/memoryGame" 
+							target="_blank" 
+							className="btn btn-danger project-link" 
+							role="button" 
+							rel="noopener noreferrer">
+								Go to Repo
+						</a>
+					</span>
+				</p>
+			  </div>
+
+			  <div className="gallery-cell">
+			  	<img src={Hangman} className="project-img" alt="hangman"/>
+			  	<p className="project-text">
+			  		<span className="project-title">Hangman</span>
+			  		<br />
+			  		A game of hangman. Picks a word from an array at random. Written in jQuery.
+					<br />
+					<br />
+					<span>
+						<a 
+							href="https://aguirreh8.github.io/Hangman-Game/" 
+							target="_blank" 
+							className="btn btn-success project-link" 
+							role="button" 
+							rel="noopener noreferrer">
+								Go To Site
+						</a>
+					</span>
+					<span>
+						<a 
+							href="https://github.com/aguirreh8/Hangman-Game" 
+							target="_blank" 
+							className="btn btn-danger project-link" 
+							role="button" 
+							rel="noopener noreferrer">
+								Go to Repo
+						</a>
+					</span>
+				</p>
+			  </div>
+
+			  <div className="gallery-cell">
+			  	<img src={What2Wear} className="project-img" alt="What2Wear"/>
+			  	<p className="project-text">
+			  		<span className="project-title">What 2 Wear</span>
+			  		<br />
+			  		An application that helps the user choose what to wear based on weather conditions.
+					<br />
+					<br />
+					<span>
+						<a 
+							href="https://what2wear.glitch.me/" 
+							target="_blank" 
+							className="btn btn-success project-link" 
+							role="button" 
+							rel="noopener noreferrer">
+								Go To Site
+						</a>
+					</span>
+					<span>
+						<a 
+							href="https://github.com/aguirreh8/what2wear" 
+							target="_blank" 
+							className="btn btn-danger project-link" 
+							role="button" 
+							rel="noopener noreferrer">
+								Go to Repo
+						</a>
+					</span>
+				</p>
+			  </div> 
+
+			
+
+
 			</div>
 		</div>
 	</div>

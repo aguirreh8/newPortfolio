@@ -1,16 +1,19 @@
 {
   "main.css": "static/css/main.c9c6f2d4.css",
   "main.css.map": "static/css/main.c9c6f2d4.css.map",
-  "main.js": "static/js/main.fd7e7e54.js",
-  "main.js.map": "static/js/main.fd7e7e54.js.map",
+  "main.js": "static/js/main.b1350b3e.js",
+  "main.js.map": "static/js/main.b1350b3e.js.map",
   "static\\media\\burgereater.jpg": "static/media/burgereater.cdee944c.jpg",
   "static\\media\\city.jpg": "static/media/city.74b93ec2.jpg",
   "static\\media\\expressjs.png": "static/media/expressjs.d638bd34.png",
+  "static\\media\\hangman.jpg": "static/media/hangman.b380af4c.jpg",
   "static\\media\\jobcards.jpg": "static/media/jobcards.ef34415e.jpg",
   "static\\media\\jquery.png": "static/media/jquery.a3af0655.png",
   "static\\media\\me.png": "static/media/me.ea7b86bb.png",
+  "static\\media\\memorygame.jpg": "static/media/memorygame.0b71d031.jpg",
   "static\\media\\mongodb.png": "static/media/mongodb.3851cc04.png",
   "static\\media\\nodejs.png": "static/media/nodejs.d42672d4.png",
   "static\\media\\weatherstyle.jpg": "static/media/weatherstyle.b2ff7a89.jpg",
-  "static\\media\\webventeer.jpg": "static/media/webventeer.d91f815a.jpg"
+  "static\\media\\webventeer.jpg": "static/media/webventeer.d91f815a.jpg",
+  "static\\media\\what2wear.jpg": "static/media/what2wear.c40a8e84.jpg"
 }
